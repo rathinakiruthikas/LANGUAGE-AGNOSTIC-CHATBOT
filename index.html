@@ -1,18 +1,33 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./components/Login";
-import Register from "./components/Register";
-import ChatBot from "./components/ChatBot";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Agnostic Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/chat" element={<ChatBot />} />
-      </Routes>
-    </BrowserRouter>
-  );
-}
+    <div class="container">
 
-export default App;
+        <div class="header">
+            <h1>Language Agnostic Chatbot</h1>
+        </div>
+
+        <div id="chatBox" class="chat-box"></div>
+
+        <div class="input-section">
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Type your message..."
+            >
+            <button onclick="sendMessage()">Send</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

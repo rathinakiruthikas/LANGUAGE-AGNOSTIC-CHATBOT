@@ -7,13 +7,9 @@ Language Agnostic Chatbot is an AI-powered chatbot that enables users to communi
 Many users face difficulties when interacting with applications that support only a limited number of languages. The proposed chatbot aims to eliminate language barriers by understanding and responding to user queries in multiple languages.
 # Objectives
 Support multiple languages.
-
 Detect user language automatically.
-
 Generate accurate responses.
-
 Maintain conversation history.
-
 Provide a simple and user-friendly interface.
 
 # Modules

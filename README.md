@@ -55,27 +55,15 @@ timestamp
 ,language_id
 ,language_name
 ,language_code
-
-Chat_Logs
-
-log_id
-
-user_id
-
-activity
-
-timestamp
-
-Frontend Setup
-
-Create React Project
-
-Bash
-
-npx create-react-app language-agnostic-chatbot
-
-cd language-agnostic-chatbot
-
-npm install axios react-router-dom
-
-npm start
+,Chat_Logs
+,log_id
+,user_id
+,activity
+,timestamp
+,Frontend Setup
+,Create React Project
+,Bash
+,npx create-react-app language-agnostic-chatbot
+,cd language-agnostic-chatbot
+,npm install axios react-router-dom
+,npm start.
